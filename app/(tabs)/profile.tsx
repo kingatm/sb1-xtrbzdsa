@@ -23,15 +23,12 @@ export default function ProfileScreen() {
       <View style={styles.section}>
         <Text style={styles.sectionTitle}>About</Text>
         <Text style={styles.text}>
-          This app was created using Expo and The Movie Database (TMDB) API.
-          All movie data is provided by TMDB.
         </Text>
       </View>
 
       <View style={styles.section}>
         <Text style={styles.sectionTitle}>Attribution</Text>
         <Text style={styles.text}>
-          This product uses the TMDB API but is not endorsed or certified by TMDB.
         </Text>
       </View>
     </View>
